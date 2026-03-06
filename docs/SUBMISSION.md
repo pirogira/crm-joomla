@@ -2,9 +2,7 @@
 
 ## Ссылка на репозиторий
 
-**URL**: *(укажите ссылку на GitHub после публикации)*
-
-Пример: `https://github.com/username/crm-joomla`
+**URL**: https://github.com/pirogira/crm-joomla
 
 ---
 
