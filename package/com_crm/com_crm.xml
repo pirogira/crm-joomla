@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" method="upgrade" version="4.0">
+  <name>com_crm</name>
+  <author>Generated with Cursor</author>
+  <version>0.1.0</version>
+  <creationDate>2026-03-06</creationDate>
+  <description>Simple CRM component: companies, events, stages</description>
+
+  <namespace path="site/src">Vendor\Crm\Component\Crm\Site</namespace>
+  <namespace path="administrator/src">Vendor\Crm\Component\Crm\Administrator</namespace>
+
+  <files folder="site">
+    <filename>crm.php</filename>
+    <folder>src</folder>
+    <folder>tmpl</folder>
+    <folder>language</folder>
+  </files>
+
+  <administration>
+    <menu>CRM</menu>
+    <files folder="administrator">
+      <filename>crm.php</filename>
+      <folder>src</folder>
+      <folder>language</folder>
+      <folder>sql</folder>
+    </files>
+  </administration>
+
+  <install>
+    <sql>
+      <file driver="mysql" charset="utf8mb4">sql/install.mysql.utf8mb4.sql</file>
+    </sql>
+  </install>
+</extension>
+

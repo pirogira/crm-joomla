@@ -1,0 +1,21 @@
+{
+    "name": "vendor/crm-joomla",
+    "description": "CRM component for Joomla 4/5",
+    "type": "project",
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Crm\\Component\\Crm\\Site\\": "package/com_crm/site/src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vendor\\Crm\\Tests\\": "tests/"
+        }
+    }
+}
