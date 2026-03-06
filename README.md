@@ -71,7 +71,6 @@ composer install
 
 **Карточка компании**: http://pirojosf.beget.tech/index.php?option=com_crm&view=company&id=1
 
-Доступ: логин/пароль от Joomla maksim Zxsder357357.
 
 ---
 
